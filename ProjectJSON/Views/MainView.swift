@@ -53,13 +53,16 @@ struct MainView: View {
                     }
                     Spacer().frame(height: 60)
                 }.onAppear {
-                    ManagerCompletions.shared.fetchData { result in
-                        switch result{
-                        case .success(let data):
-                            posts = data.products
-                        case .failure(let error):
-                            print(error.localizedDescription)
-                        }
+//                    ManagerAsync.shared.fetchData { result in
+//                        switch result{
+//                        case .success(let data):
+//                            posts = data.products
+//                        case .failure(let error):
+//                            print(error.localizedDescription)
+//                        }
+//                    }
+                    Task {
+                        posts = try await ManagerAsync.shared.fetchData().products
                     }
                 }
                 .ignoresSafeArea(.all)

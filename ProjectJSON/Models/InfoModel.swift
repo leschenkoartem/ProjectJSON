@@ -8,9 +8,8 @@
 import Foundation
 
 // MARK: - Post
-struct Post: Codable {
+struct Posts: Codable {
     let products: [Product]
-    let total, skip, limit: Int
 }
 
 // MARK: - Product
