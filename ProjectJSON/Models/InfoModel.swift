@@ -24,9 +24,3 @@ struct Product: Codable {
     let thumbnail: String
     let images: [String]
 }
-
-extension Post{
-    func example() -> Product {
-        return products.first!
-    }
-}

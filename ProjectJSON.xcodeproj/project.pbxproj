@@ -16,6 +16,7 @@
 		E3C5966E29D5807300B9EC6E /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5966D29D5807300B9EC6E /* InfoModel.swift */; };
 		E3CE933C29DE17100050F245 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE933B29DE17100050F245 /* ProductView.swift */; };
 		E3CE933F29DE19990050F245 /* HorizontalImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE933E29DE19990050F245 /* HorizontalImagePicker.swift */; };
+		E3CE934129DEBE2A0050F245 /* SmallProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE934029DEBE2A0050F245 /* SmallProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E3C5966D29D5807300B9EC6E /* InfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModel.swift; sourceTree = "<group>"; };
 		E3CE933B29DE17100050F245 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		E3CE933E29DE19990050F245 /* HorizontalImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalImagePicker.swift; sourceTree = "<group>"; };
+		E3CE934029DEBE2A0050F245 /* SmallProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				E3C5965729D3546700B9EC6E /* MainView.swift */,
 				E3CE933B29DE17100050F245 /* ProductView.swift */,
+				E3CE934029DEBE2A0050F245 /* SmallProductView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				E3C5966C29D5801600B9EC6E /* JSONManagerCompletions.swift in Sources */,
 				E3C5966729D3572100B9EC6E /* MaiinViewModel.swift in Sources */,
 				E3CE933C29DE17100050F245 /* ProductView.swift in Sources */,
+				E3CE934129DEBE2A0050F245 /* SmallProductView.swift in Sources */,
 				E3C5966E29D5807300B9EC6E /* InfoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

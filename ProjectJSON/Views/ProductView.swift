@@ -24,12 +24,11 @@ struct ProductView: View {
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 470, maxHeight: 470)
-                        .background(Color(.systemGray3).opacity(0.7))
-                        .cornerRadius(12)
                 } placeholder: {
                     ProgressView()
-                }
+                }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 470, maxHeight: 470)
+                    .background(Color(.systemGray3).opacity(0.7))
+                    .cornerRadius(12)
                 VStack{
                     HStack{
                         Text("\(select+1) / \(product.images.count)")
